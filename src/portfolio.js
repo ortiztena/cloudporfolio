@@ -15,7 +15,7 @@ const greeting = {
   full_name: "Pedro Ortiz",
   subTitle: "DevOps Engineer, Cloud Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1kz4LhF4MRdd-llM9w_8wt7JUzu51yweL/view?usp=sharing",
+    "https://drive.google.com/file/d/1es8zxaMvDxmi_1bFVR7Sl4Ppu-n0XPbP/view?usp=sharing",
   mail: "mailto:ortiztena@gmail.com",
 };
 
