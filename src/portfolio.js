@@ -13,9 +13,9 @@ const greeting = {
   logo_name: "{ ortiztena }",
   nickname: "ortiztena",
   full_name: "Pedro Ortiz",
-  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "DevOps Engineer, Cloud Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1B6hayj4ksumF_A24QKCJxPdacg-JecVm/view?usp=sharing",
+    "https://drive.google.com/file/d/1kz4LhF4MRdd-llM9w_8wt7JUzu51yweL/view?usp=sharing",
   mail: "mailto:ortiztena@gmail.com",
 };
 
@@ -30,153 +30,15 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React / Vue / Svelte and Typescript",
-        "⚡ Creating application backend in Node / Express / MongoDB ",
-        "⚡ Integration of third party services such as Heroku / AWS / Azure",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Typescript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CE508F",
-          },
-        },
-
-        {
-          skillName: "React",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "VueJS",
-          fontAwesomeClassname: "simple-icons:vuejs",
-          style: {
-            color: "#3AAE7A",
-          },
-        },
-        {
-          skillName: "Svelte",
-          fontAwesomeClassname: "simple-icons:svelte",
-          style: {
-            color: "#F73C00",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            color: "#E94E32",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
+      title: "DevOps Engineer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Multiple cloud platforms",
-        "⚡ Hosting and deploying websites",
-        "⚡ Continuous Integration",
+        "⚡ Designing, provisioning, and scaling highly available AWS cloud architectures (EKS, EC2, Lambda, DynamoDB)",
+        "⚡ Implementing automated CI/CD deployment pipelines using Bamboo, Octopus Deploy, Docker, and Helm",
+        "⚡ Managing secrets, zero-trust security, and API gateways with HashiCorp Vault, Kong, and WAF solutions",
+        "⚡ End-to-end observability, log aggregation, and vulnerability posture remediation with New Relic, Splunk, and Wiz",
       ],
       softwareSkills: [
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -185,63 +47,104 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
-            color: "#2AB9E7",
+            color: "#326CE5",
           },
         },
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#5b77ef",
+            color: "#2496ED",
+          },
+        },
+        {
+          skillName: "Helm",
+          fontAwesomeClassname: "simple-icons:helm",
+          style: {
+            color: "#0F1689",
+          },
+        },
+        {
+          skillName: "Octopus Deploy",
+          fontAwesomeClassname: "simple-icons:octopusdeploy",
+          style: {
+            color: "#0D80D8",
+          },
+        },
+        {
+          skillName: "HashiCorp Vault",
+          fontAwesomeClassname: "simple-icons:vault",
+          style: {
+            color: "#FFEC6E",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+        {
+          skillName: "Splunk",
+          fontAwesomeClassname: "simple-icons:splunk",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "New Relic",
+          fontAwesomeClassname: "simple-icons:newrelic",
+          style: {
+            color: "#1CE783",
           },
         },
       ],
     },
   ],
 };
-
 const degrees = {
   degrees: [
     {
       title: "Lemoncode",
-      subtitle: "Master degree in front end development",
+      subtitle: "Master's Degree in Full Stack Web Development",
       logo_path: "lemoncode.png",
       alt_name: "lemoncode",
       duration: "2020 - 2022",
       descriptions: [
-        "⚡ React - Angular - Vuejs - d3js - Flexbox - CSS Grid - Material Design - CSS in JS - Gatsby",
-        "⚡ GraphQL - lodash/fp - Webpack - Parcel - ES6/ES7 - Typescript - Git",
-        "⚡ Code quality and unit testing: TDD, Jest, React Testing Library, Jest + Typescript",
-        "⚡ Security: cookies - headers - JWT.",
+        "⚡ Front End: Modern React, Angular, Vue.js, TypeScript, Next.js, responsive layouts (CSS Grid, Flexbox), and UI component libraries.",
+        "⚡ Back End & Cloud: Node.js, Express, RESTful APIs, GraphQL, asynchronous architectures, and relational & NoSQL databases (MongoDB, PostgreSQL).",
+        "⚡ Tooling & DevOps: Webpack, Vite, Docker basics, Git workflows, CI/CD pipeline integration, and cloud service deployments.",
+        "⚡ Quality & Security: Unit and integration testing (Jest, React Testing Library, TDD), along with authentication and web security (JWT, cookies, OAuth, security headers).",
       ],
-      website_link: "https://lemoncode.net/master-frontend#inicio-banner",
+      website_link: "https://www.lemoncode.net/",
     },
     {
       title: "EADE",
-      subtitle: "Master degree in golf course & sports turf management",
+      subtitle: "Master's Degree in Golf Course & Sports Turf Management",
       logo_path: "eade.png",
       alt_name: "eade",
       duration: "2012 - 2013",
       descriptions: [
-        "⚡ Construction, Design and Maintenance of Football Pitches.",
-        "⚡ Management Skills, Emotional Intelligence and Leadership",
+        "⚡ Sports Surface Engineering: Specialized in the agronomic design, construction, and precision maintenance of high-performance turf facilities.",
+        "⚡ Operations & Leadership: Project planning, team leadership, cross-functional communication, and resource/budget management.",
       ],
       website_link:
         "https://www.eade.es/titulos-propios/master-en-direccion-de-mantenimiento-de-campos-de-golf-y-futbol-greenkeeper-de-cespedes-deportivos/",
     },
     {
-      title: "ETSIA College Of Engineering",
-      subtitle: "Diploma in Agricultural Enginerring",
+      title: "University of Seville (ETSIA)",
+      subtitle: "Bachelor's Degree in Agricultural Engineering",
       logo_path: "usevilla.png",
       alt_name: "US",
-      duration: "2007 - 2012",
+      duration: "2007 - 2013",
       descriptions: [
-        "⚡ I have studied core subjects like Maths, Physics, Chemistry, Biology, etc.",
-        "⚡ Researched about effects of temperature on various crops inside a greenhouse.",
-        "⚡ I have develop algorithms with Matlab to analyze data, and create models.",
+        "⚡ Core Engineering & Quantitative Foundation: Rigorous grounding in applied mathematics, physics, statistics, and fluid mechanics.",
+        "⚡ Modeling & Scientific Computing: Developed algorithms and data processing models using MATLAB to analyze microclimate and sensor datasets.",
+        "⚡ Research & Systems Analysis: Conducted empirical studies on greenhouse thermal dynamics, sensor-driven data capture, and environmental control.",
       ],
       website_link: "https://etsia.us.es/",
     },
@@ -259,15 +162,6 @@ const certifications = {
       alt_name: "bcjavascript",
       color_code: "#AF0702",
     },
-    {
-      title: "Bootcamp Backend",
-      subtitle: "Lemoncode",
-      logo_path: "bcbackend.png",
-      certificate_link:
-        "https://lemoncode.net/bootcamp-backend#bootcamp-backend/banner",
-      alt_name: "bcbackend",
-      color_code: "#AFB301",
-    },
   ],
 };
 
@@ -276,12 +170,26 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internship, one in Spain and one in the USA. I've mostly done projects around the world. I love to share my knowledge with others.",
+    "Having completed engineering internships in Spain and the United States, my career has been built on diverse international projects. Today, I work fully remotely with distributed teams across the US and India, driving seamless asynchronous operations to guarantee round-the-clock support while fostering cross-regional knowledge sharing.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "DevOps Engineer",
+          company: "Verisk",
+          company_url: "https://www.verisk.com/",
+          logo_path: "verisk.png",
+          duration: "Aug 2022 - Present",
+          location: "Málaga, Spain (Remote)",
+          description: `• Managed, scaled, and optimized production AWS cloud infrastructure (EKS, EC2, Lambda, DynamoDB, CloudFormation).
+• Automated CI/CD deployment pipelines utilizing Atlassian Bamboo, Octopus Deploy, Docker, and Helm.
+• Led cloud migration projects from standalone EC2 instances to Amazon EKS containerized environments.
+• Implemented zero-trust secrets management and API security using HashiCorp Vault, Kong API Gateway, and WAF rules.
+• Built automated multi-region disaster recovery failover solutions between AWS regions.
+• Monitored application health, security posture, and logging with New Relic, Splunk, and Wiz.`,
+        },
         {
           title: "Golf Course Superintendent",
           company: "Golfcity Puchheim",
@@ -291,16 +199,6 @@ const experience = {
           location: "München, Germany",
           description: ` Collaboration in the extension Project, from 32ha to 53ha (6 holes + 1 short course).\n Construction and grow-in supervision.\n Full maintenance (53ha) since Jun 1th, 2018.\n Agronomic consulting and maintenance supervision of Golfcity Pulheim, Cologne(9holes) in 2018. \n Human Resources management. \n Agronomic and yearly work planning. Budgetcontrol. \n Problemsolving,controlandmanagement.`,
           color: "#0071C5",
-        },
-        {
-          title: "Assistant Superintendent",
-          company: "ETC",
-          company_url: "http://www.golfplatzpflege.com/",
-          logo_path: "engelmann.png",
-          duration: "Apr 2016 - Aug 2016",
-          location: "München, Germany",
-          description: `Helping in five differents courses with the regular maintenance tasks.`,
-          color: "#3fd611",
         },
         {
           title: "Second Assistant Superintendent",
@@ -321,16 +219,6 @@ const experience = {
           location: "Irvine, California, USA",
           description: `Assign and supervise jobs for a team of up to 35 people. Small workgroups leadership. Supervise staff schedule`,
           color: "#3fd611",
-        },
-        {
-          title: "Assistant in training / Internship",
-          company: "Finca Cortesin Golf Resort & Spa",
-          company_url: "http://www.fincacortesin.com",
-          logo_path: "finca.png",
-          duration: "Jan 2013 - Jan 2014",
-          location: "Málaga, Spain",
-          description: `Operating all machinery and tools. Irrigation control and management`,
-          color: "#0071C5",
         },
       ],
     },
@@ -366,7 +254,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects use a variety of different technology tools. My best experience is to create NodeJS Backend Projects, and React Project. Below are some of my projects. Note that i'm still working on adding some more projects.",
+    "full-stack applications and cloud workflows built with Node.js, React, and modern cloud primitives. These projects demonstrate clean code practices, API design, and automated deployments. Continuously shipping new repositories and infrastructure blueprints.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -389,91 +277,101 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "0",
-      name: "Ricky & Morti API with GraphQL",
-      url: "https://codesandbox.io/s/bold-thompson-ho2d92",
+      id: "4",
+      name: "cloudporfolio",
+      url: "https://github.com/ortiztena/cloudporfolio",
       description:
-        "React and typescript app, showing Rick and Morty characters list. It allows you to insert a comment on a single character.",
+        "Personal cloud and software engineering portfolio site built with React and modern JavaScript, featuring modular component design and automated continuous deployment.",
       languages: [
         {
           name: "React",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos:react",
         },
         {
-          name: "Typescritp",
-          iconifyClass: "logos-typescript",
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
         },
         {
-          name: "GraphQL",
-          iconifyClass: "logos-graphql",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "React Git members List API",
-      url:
-        "https://codesandbox.io/s/focused-framework-0fzy3e?file=/src/index.tsx",
-      description:
-        "A React component that search and shows all the GitHub organization members.",
-      languages: [
-        {
-          name: "Typescritp",
-          iconifyClass: "logos-typescript",
+          name: "HTML5",
+          iconifyClass: "logos:html-5",
         },
         {
-          name: "React",
-          iconifyClass: "logos-react",
+          name: "CSS3",
+          iconifyClass: "logos:css-3",
         },
-      ],
-    },
-    {
-      id: "2",
-      name: "Node server hotel DB",
-      url:
-        "https://github.com/ortiztena/deploy-cloud-demo/tree/automatic-deploy/",
-      description:
-        "Back and front deployed on Heroku, serving data from a cluster by Mongo, and the role images from AWS bucket.",
-      languages: [
         {
           name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          iconifyClass: "logos:nodejs-icon",
         },
         {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDb",
-          iconifyClass: "logos-mongodb",
-        },
-        {
-          name: "Heroku",
-          iconifyClass: "logos-heroku",
-        },
-        {
-          name: "AWS",
-          iconifyClass: "logos-aws",
+          name: "GitHub Actions",
+          iconifyClass: "logos:github-actions",
         },
       ],
     },
     {
       id: "3",
-      name: "Vue Git members List API",
-      url: "https://codesandbox.io/s/memberlist-api-8l7q57",
+      name: "hearthstone_app",
+      url: "https://github.com/ortiztena/hearthstone_app",
       description:
-        "A Vue app that search and shows all the GitHub organization members.",
+        "Hearthstone card explorer and deck browser built with React, consuming external REST APIs with state management and dynamic filtering.",
       languages: [
         {
-          name: "Vue",
-          iconifyClass: "logos-vue",
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
         },
         {
-          name: "typescript",
-          iconifyClass: "logos-typescript",
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos:css-3",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs-icon",
         },
       ],
     },
+    {
+      id: "2",
+      name: "airbnb-working-app",
+      url: "https://github.com/ortiztena/airbnb-working-app",
+      description:
+        "Full-stack Airbnb clone featuring automated cloud deployment, MongoDB Atlas cluster integration, and S3-backed asset storage.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs-icon",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos:mongodb-icon",
+        },
+        {
+          name: "AWS S3",
+          iconifyClass: "logos:aws-s3",
+        },
+        {
+          name: "Heroku",
+          iconifyClass: "logos:heroku-icon",
+        },
+      ],
+    },
+    ,
   ],
 };
 
