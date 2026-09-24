@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "personalportfolio",
-  "homepage": "http://ortiztena.github.io",
+  "name": "cloudportfolio",
+  "homepage": "http://ortiztena.github.io/cloudporfolio",
   "version": "1.0.0",
   "scripts": {
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
