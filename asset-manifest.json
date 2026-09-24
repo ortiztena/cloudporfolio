@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72cc8a32.chunk.css",
+    "main.js": "/static/js/main.b72dfa82.chunk.js",
+    "main.js.map": "/static/js/main.b72dfa82.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b584fe3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b584fe3d.js.map",
+    "static/js/2.aad75d82.chunk.js": "/static/js/2.aad75d82.chunk.js",
+    "static/js/2.aad75d82.chunk.js.map": "/static/js/2.aad75d82.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.70276de2646ca470f8661a7ea2c01b71.js": "/precache-manifest.70276de2646ca470f8661a7ea2c01b71.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.72cc8a32.chunk.css.map": "/static/css/main.72cc8a32.chunk.css.map",
+    "static/js/2.aad75d82.chunk.js.LICENSE.txt": "/static/js/2.aad75d82.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/bcbackend.png": "/static/media/bcbackend.21131fe9.png",
+    "static/media/bcjavascript.png": "/static/media/bcjavascript.fa9f1bee.png",
+    "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
+    "static/media/eade.png": "/static/media/eade.a6d7c075.png",
+    "static/media/eldorado.svg": "/static/media/eldorado.6e58f361.svg",
+    "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/finca.png": "/static/media/finca.b523c7bf.png",
+    "static/media/gdg.png": "/static/media/gdg.6364dbb3.png",
+    "static/media/github.png": "/static/media/github.0ba2aa20.png",
+    "static/media/hassan.png": "/static/media/hassan.468812c7.png",
+    "static/media/ino.png": "/static/media/ino.ccf88661.png",
+    "static/media/lemoncode.png": "/static/media/lemoncode.0ac3e8c1.png",
+    "static/media/localguide.gif": "/static/media/localguide.847873a8.gif",
+    "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
+    "static/media/national.png": "/static/media/national.eef037a9.png",
+    "static/media/profile.jpg": "/static/media/profile.ca5e9baa.jpg",
+    "static/media/shady.png": "/static/media/shady.55c0f108.png",
+    "static/media/usevilla copia.png": "/static/media/usevilla copia.aaea5dfa.png",
+    "static/media/usevilla.png": "/static/media/usevilla.1a7045fa.png",
+    "static/media/verisk.png": "/static/media/verisk.605055dd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b584fe3d.js",
+    "static/js/2.aad75d82.chunk.js",
+    "static/css/main.72cc8a32.chunk.css",
+    "static/js/main.b72dfa82.chunk.js"
+  ]
+}
